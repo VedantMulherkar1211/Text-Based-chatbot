@@ -1,0 +1,137 @@
+
+artificial intelligence (AI), the ability of a digital computer or computer-controlled robot to perform tasks commonly associated with intelligent beings. The term is frequently applied to the project of developing systems endowed with the intellectual processes characteristic of humans, such as the ability to reason, discover meaning, generalize, or learn from past experience. Since the development of the digital computer in the 1940s, it has been demonstrated that computers can be programmed to carry out very complex tasks—as, for example, discovering proofs for mathematical theorems or playing chess—with great proficiency. Still, despite continuing advances in computer processing speed and memory capacity, there are as yet no programs that can match human flexibility over wider domains or in tasks requiring much everyday knowledge. On the other hand, some programs have attained the performance levels of human experts and professionals in performing certain specific tasks, so that artificial intelligence in this limited sense is found in applications as diverse as medical diagnosis, computer search engines, and voice or handwriting recognition.
+
+What is intelligence?
+All but the simplest human behaviour is ascribed to intelligence, while even the most complicated insect behaviour is never taken as an indication of intelligence. What is the difference? Consider the behaviour of the digger wasp, Sphex ichneumoneus. When the female wasp returns to her burrow with food, she first deposits it on the threshold, checks for intruders inside her burrow, and only then, if the coast is clear, carries her food inside. The real nature of the wasp’s instinctual behaviour is revealed if the food is moved a few inches away from the entrance to her burrow while she is inside: on emerging, she will repeat the whole procedure as often as the food is displaced. Intelligence—conspicuously absent in the case of Sphex—must include the ability to adapt to new circumstances.
+
+Psychologists generally do not characterize human intelligence by just one trait but by the combination of many diverse abilities. Research in AI has focused chiefly on the following components of intelligence: learning, reasoning, problem solving, perception, and using language.
+
+Learning
+There are a number of different forms of learning as applied to artificial intelligence. The simplest is learning by trial and error. For example, a simple computer program for solving mate-in-one chess problems might try moves at random until mate is found. The program might then store the solution with the position so that the next time the computer encountered the same position it would recall the solution. This simple memorizing of individual items and procedures—known as rote learning—is relatively easy to implement on a computer. More challenging is the problem of implementing what is called generalization. Generalization involves applying past experience to analogous new situations. For example, a program that learns the past tense of regular English verbs by rote will not be able to produce the past tense of a word such as jump unless it previously had been presented with jumped, whereas a program that is able to generalize can learn the “add ed” rule and so form the past tense of jump based on experience with similar verbs.
+
+Reasoning
+To reason is to draw inferences appropriate to the situation. Inferences are classified as either deductive or inductive. An example of the former is, “Fred must be in either the museum or the café. He is not in the café; therefore he is in the museum,” and of the latter, “Previous accidents of this sort were caused by instrument failure; therefore this accident was caused by instrument failure.” The most significant difference between these forms of reasoning is that in the deductive case the truth of the premises guarantees the truth of the conclusion, whereas in the inductive case the truth of the premise lends support to the conclusion without giving absolute assurance. Inductive reasoning is common in science, where data are collected and tentative models are developed to describe and predict future behaviour—until the appearance of anomalous data forces the model to be revised. Deductive reasoning is common in mathematics and logic, where elaborate structures of irrefutable theorems are built up from a small set of basic axioms and rules.
+
+There has been considerable success in programming computers to draw inferences, especially deductive inferences. However, true reasoning involves more than just drawing inferences; it involves drawing inferences relevant to the solution of the particular task or situation. This is one of the hardest problems confronting AI.
+Robotics is a domain in artificial intelligence that deals with the study of creating intelligent and efficient robots.
+
+What are Robots?
+Robots are the artificial agents acting in real world environment.
+
+Objective
+Robots are aimed at manipulating the objects by perceiving, picking, moving, modifying the physical properties of object, destroying it, or to have an effect thereby freeing manpower from doing repetitive functions without getting bored, distracted, or exhausted.
+
+What is Robotics?
+Robotics is a branch of AI, which is composed of Electrical Engineering, Mechanical Engineering, and Computer Science for designing, construction, and application of robots.
+Aspects of RoboticsThe robots have mechanical construction, form, or shape designed to accomplish a particular task.
+They have electrical componnts which power and control the machinery.
+They contain some level of computer program that determines what, when and how a robot does something.
+Robot Locomotion
+Locomotion is the mechanism that makes a robot capable of moving in its environment. There are various types of locomotions −
+
+Legged
+Wheeled
+Combination of Legged and Wheeled Locomotion
+Tracked slip/skid
+Legged Locomotion
+This type of locomotion consumes more power while demonstrating walk, jump, trot, hop, climb up or down, etc.
+
+It requires more number of motors to accomplish a movement. It is suited for rough as well as smooth terrain where irregular or too smooth surface makes it consume more power for a wheeled locomotion. It is little difficult to implement because of stability issues.
+
+It comes with the variety of one, two, four, and six legs. If a robot has multiple legs then leg coordination is necessary for locomotion.
+
+The total number of possible gaits (a periodic sequence of lift and release events for each of the total legs) a robot can travel depends upon the number of its legs.
+
+If a robot has k legs, then the number of possible events N = (2k-1)!.
+
+In case of a two-legged robot (k=2), the number of possible events is N = (2k-1)! = (2*2-1)! = 3! = 6.
+
+Hence there are six possible different events −
+
+Lifting the Left leg
+Releasing the Left leg
+Lifting the Right leg
+Releasing the Right leg
+Lifting both the legs together
+Releasing both the legs together
+In case of k=6 legs, there are 39916800 possible events. Hence the complexity of robots is directly proportional to the number of legs.
+Wheeled Locomotion
+It requires fewer number of motors to accomplish a movement. It is little easy to implement as there are less stability issues in case of more number of wheels. It is power efficient as compared to legged locomotion.
+
+Standard wheel − Rotates around the wheel axle and around the contact
+
+Castor wheel − Rotates around the wheel axle and the offset steering joint.
+
+Swedish 45o and Swedish 90o wheels − Omni-wheel, rotates around the contact point, around the wheel axle, and around the rollers.
+
+Ball or spherical wheel − Omnidirectional wheel, technically difficult to implement.
+Slip/Skid Locomotion
+In this type, the vehicles use tracks as in a tank. The robot is steered by moving the tracks with different speeds in the same or opposite direction. It offers stability because of large contact area of track and ground.
+Components of a Robot
+Robots are constructed with the following −
+
+Power Supply − The robots are powered by batteries, solar power, hydraulic, or pneumatic power sources.
+
+Actuators − They convert energy into movement.
+
+Electric motors (AC/DC) − They are required for rotational movement.
+
+Pneumatic Air Muscles − They contract almost 40% when air is sucked in them.
+
+Muscle Wires − They contract by 5% when electric current is passed through them.
+
+Piezo Motors and Ultrasonic Motors − Best for industrial robots.
+
+Sensors − They provide knowledge of real time information on the task environment. Robots are equipped with vision sensors to be to compute the depth in the environment. A tactile sensor imitates the mechanical properties of touch receptors of human fingertips.
+
+Computer Vision
+This is a technology of AI with which the robots can see. The computer vision plays vital role in the domains of safety, security, health, access, and entertainment.
+
+Computer vision automatically extracts, analyzes, and comprehends useful information from a single image or an array of images. This process involves development of algorithms to accomplish automatic visual comprehension.
+
+Hardware of Computer Vision System
+This involves −
+
+Power supply
+Image acquisition device such as camera
+A processor
+A software
+A display device for monitoring the system
+Accessories such as camera stands, cables, and connectors
+Tasks of Computer Vision
+OCR − In the domain of computers, Optical Character Reader, a software to convert scanned documents into editable text, which accompanies a scanner.
+
+Face Detection − Many state-of-the-art cameras come with this feature, which enables to read the face and take the picture of that perfect expression. It is used to let a user access the software on correct match.
+
+Object Recognition − They are installed in supermarkets, cameras, high-end cars such as BMW, GM, and Volvo.
+
+Estimating Position − It is estimating position of an object with respect to camera as in position of tumor in human’s body.
+
+Application Domains of Computer Vision
+Agriculture
+Autonomous vehicles
+Biometrics
+Character recognition
+Forensics, security, and surveillance
+Industrial quality inspection
+Face recognition
+Gesture analysis
+Geoscience
+Medical imagery
+Pollution monitoring
+Process control
+Remote sensing
+Robotics
+Transport
+Applications of Robotics
+The robotics has been instrumental in the various domains such as −
+
+Industries − Robots are used for handling material, cutting, welding, color coating, drilling, polishing, etc.
+
+Military − Autonomous robots can reach inaccessible and hazardous zones during war. A robot named Daksh, developed by Defense Research and Development Organization (DRDO), is in function to destroy life-threatening objects safely.
+
+Medicine − The robots are capable of carrying out hundreds of clinical tests simultaneously, rehabilitating permanently disabled people, and performing complex surgeries such as brain tumors.
+
+Exploration − The robot rock climbers used for space exploration, underwater drones used for ocean exploration are to name a few.
+
+Entertainment − Disney’s engineers have created hundreds of robots for movie making.
